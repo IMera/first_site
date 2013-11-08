@@ -2,54 +2,78 @@
 <html>
 <head>
 	<link href="/normalize.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Henny+Penny' rel='stylesheet' type='text/css'>
 	<title>Die Kreuzer Frauen</title>
 	<style>
 	header {
+		margin-top: -10px;
+		height: 80px;
 		text-align: center;
-		background-color: #0F1972;
-		color: #F7DB22;
-		padding: 10px 0px 10px 0px;
-		font-family: Curlz MT, Georgia;
-		font-size: 20px
-				}
-	ul {
-		padding: 10px 90px 10px 0px;
-		background-color: #F7DB22;
-	}
-	li {
-		display: inline;
-		padding: 0px 10px 0px 10pc;
-	}
+		background-color: #F5986A;
+		color: #921558;
+		font-family: 'Henny Penny', cursive; Curlz MT, Georgia;
+		font-size: 20px;
+		border-radius: 30px; }
+
+	ul {margin-top: -33px;
+		padding: 2px 60px 0 40px;
+		background-color: #921558;
+		border-radius: 20px;}
+
+	li {padding: 0 20px 0 20px;
+		display: inline;}
+	
 	a {
-		color: #0F1972;
+		color: #F5986A;
 	}
-	h1 {
-		color: #F7DB22
+
+	
+	body {
+		background-image: url(data:image/jpeg;base64,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);
+		background-size:cover;
+		font-family: 'Henny Penny', cursive, 'Curlz MT', Georgia;
+		text-align: center;
+		color: #921558;
 		}
-	h2 {
-		font-family: Georgia;
-		text-align: center;
-		color: #0F1972
+	h1 {padding-top: 4px;}
+	
+	.body {max-width: 350px;
+		float: left;
+		margin: 120px 0 0 270px;
+		text-align: right;
+		font-weight: bold;}
+	p {font-size: 20px;
+		}
+	
+	img {float: right;
+		margin: 60px 270px 0 0;
+		height: 480px;
+		max-width: 400px;
+		border-radius: 20px;
 	}
-	p {
-		font-family: Georgia;
-		text-align: center;
-		margin: 0 auto;
-		max-width: 600px;
-		color: #0F1972
-	}
+	
+	
 	</style>
 </head>
 <body>
 	<header>
+	
 		<h1>Die Kreuzer Frauen</h1>
+		<nav>
 		<ul>
 			<li><a href="#">The Princess</a></li>
 			<li><a href="#">The Sailoress</a></li>
 			<li><a href="#">The Double Whammy</a></li>
 		</ul>	
+		</nav>
+	
 	</header>
+	
+
+	<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc3/292424_4297796009601_501744310_n.jpg">
+<div class=body>
 <h2>Guden Taach...</h2>
-<p>We are 'die Kreuzer Frauen'. Our sister and daughter is currently learning to code and chose to make her very first website a present to us. She hopes we will enjoy it, and that you do, too.</p>
+<p>We are 'die Kreuzer Frauen'. <br />Our sister and daughter is currently learning to code and chose to make her very first website a present to us. <br />She hopes we will enjoy it, and that you do, too.</p>
+</div>
 </body>
 </html>
