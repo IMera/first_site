@@ -22,7 +22,7 @@ header {
 
 	
 	body {
-		background-image: url("../images/pearls.jpg")
+		background-image: url("../images/pearls.jpg");
 		background-size:cover;
 		font-family: 'Henny Penny', cursive, 'Curlz MT', Georgia, Helvetica;
 		text-align: center;
