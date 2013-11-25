@@ -1,0 +1,48 @@
+header {
+		margin-top: -10px;
+		height: 80px;
+		text-align: center;
+		background-color: #F5986A;
+		color: #921558;
+		font-family: 'Henny Penny', cursive; Curlz MT, Georgia;
+		font-size: 20px;
+		border-radius: 30px; }
+
+	ul {margin-top: -33px;
+		padding: 2px 60px 0 40px;
+		background-color: #921558;
+		border-radius: 20px;}
+
+	li {padding: 0 20px 0 20px;
+		display: inline;}
+	
+	a {
+		color: #F5986A;
+	}
+
+	
+	body {
+		background-image: url("../images/pearls.jpg")
+		background-size:cover;
+		font-family: 'Henny Penny', cursive, 'Curlz MT', Georgia, Helvetica;
+		text-align: center;
+		color: #921558;
+		}
+	h1 {padding-top: 4px;}
+	
+	.body {max-width: 350px;
+		float: left;
+		margin: 120px 0 0 270px;
+		text-align: right;
+		font-weight: bold;}
+	p {font-size: 20px;
+		}
+	
+	img {float: right;
+		margin: 60px 270px 0 0;
+		height: 480px;
+		max-width: 400px;
+		border-radius: 20px;
+	}
+	
+	
